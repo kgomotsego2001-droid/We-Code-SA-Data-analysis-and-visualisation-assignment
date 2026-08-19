@@ -9,7 +9,7 @@
 
 This is the codebase produced for the **NDTA63 Data Analysis and Visualization** course
 
-Written in **Placeholder**
+Written in **Python (notebook)**
 
 1. Methodologies/Project Management:
 
@@ -26,9 +26,18 @@ Written in **Placeholder**
 
 ## Instructions
 
-1. Make sure you have these installed
+1. Install Python 3.10 or newer. SQLite is included with Python, so no database server is required.
 
-2. Clone `ONLY THE LATEST COMMIT` of this repository into your local machine using the terminal (mac) or
+2. Install the Python dependencies from the repository root:
+
+   ```sh
+   python -m pip install -r requirements.txt
+   ```
+
+3. The notebook creates `database/ndta63_database.sqlite` automatically and uses it for
+   table creation, queries, safe updates/deletes, Pandas retrieval, and CSV export.
+
+4. Clone `ONLY THE LATEST COMMIT` of this repository into your local machine using the terminal (mac) or
    [Gitbash (PC)](https://git-scm.com/download/win 'Gitbash (PC)') `to save storage space`
 
    ```sh
@@ -37,11 +46,11 @@ Written in **Placeholder**
 
 ## Author(s)
 
-"Group members and lecturer"
+"We Code SA and lecturer"
 
 [Melvin Kisten](https://github.com/iammelvink 'Melvin Kisten\'s GitHub page')
 
-GitHub: @"Group members"
+GitHub: @"We Code SA"
 
 LinkedIn: [Melvin Kisten](https://www.linkedin.com/in/iammelvink 'Melvin Kisten\'s LinkedIn page')
 
