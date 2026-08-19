@@ -9,7 +9,7 @@
 
 This is the codebase produced for the **NDTA63 Data Analysis and Visualization** course
 
-Written in **Python (notebook)**
+Written in **Python (Juypter notebook)**
 
 1. Methodologies/Project Management:
 
